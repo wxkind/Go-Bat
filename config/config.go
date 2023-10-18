@@ -208,7 +208,7 @@ func init() {
 	viper.SetDefault("server.ws", 5700)
 	viper.SetDefault("redis.addr", "127.0.0.1:6379")
 	viper.SetDefault("mode.modes", "T")
-	viper.SetDefault("mode.key", "sk-H2Ea8g7of8MmOeu402a14ULPWuhijzH9zkGEq3KBXDdhEfeb")
+	viper.SetDefault("mode.key", "")
 	viper.SetDefault("redis.poolSize", 1000)
 	viper.SetDefault("redis.db", 0)
 	viper.SetDefault("redis.password", "admin123")
