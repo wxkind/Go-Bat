@@ -111,7 +111,7 @@ func Set(v4, v6 string) bool {
 	request.Type = "AAAA"
 	request.Value = v6
 	request.RR = "@"
-	request.RecordId = "848798676399225856"
+	request.RecordId = ""
 	request.Lang = "en"
 	request.UserClientIp = v4
 	response, err := client.UpdateDomainRecord(request)
